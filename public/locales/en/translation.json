@@ -1,0 +1,16 @@
+{
+    "welcome": "Welcome to demo of the localization in react i18next",
+    "category1": "Hair Care",
+    "category2": "Make-Up",
+    "category3": "Nails",
+    "indOne": "1",
+    "indTwo": "2",
+    "indThree": "3",
+    "srHead": "Sr No",
+    "categoryHead": "Service Category",
+    "actionHead": "Action",
+    "addCategoryHead": "Add Service Category",
+    "cancel":"Cancel",
+    "add":"Add"
+
+}

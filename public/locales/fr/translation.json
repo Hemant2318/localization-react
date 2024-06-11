@@ -1,0 +1,15 @@
+{
+    "welcome": "Bienvenue à la démo de la localisation dans React i18next",
+    "category1": "soin des cheveux",
+    "category2": "se maquiller",
+    "category3": "clous",
+    "indOne": "un",
+    "indTwo": "deux",
+    "indThree": "trois",
+    "srHead": "Non",
+    "categoryHead": "Catégorie de services",
+    "actionHead": "Action",
+    "addCategoryHead": "Ajouter une catégorie de service",
+    "cancel":"Annuler",
+    "add":"Ajouter"
+}

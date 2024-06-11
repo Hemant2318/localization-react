@@ -1,0 +1,106 @@
+#size-selector-container {
+    width: 100%;
+
+    .select-size-input {
+        display: flex;
+        align-items: center;
+        background: #ffffff;
+        border: 1px solid #222222;
+        border-radius: 4px;
+        padding-right: 20px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: black !important;
+
+        .size-select {
+            cursor: pointer;
+
+            .dropdown {
+                height: 48px;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 21px;
+
+                .dropdown-menu {
+                    height: 200px;
+                    overflow: auto;
+                }
+
+                button {
+                    height: 100%;
+                    background-color: #ffffff;
+                    border: unset;
+                    outline: none;
+                    padding-left: 20px !important;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 21px;
+                    padding-right: 0px !important;
+
+                    &:focus-visible {
+                        outline: none;
+                        box-shadow: unset;
+                    }
+                }
+
+                .dropdown-toggle::after {
+                    display: none;
+                }
+            }
+
+            .image-block-flag {
+                display: flex;
+                align-items: center;
+                height: 25px;
+                cursor: pointer;
+                width: 60px;
+                padding: 0px 16px 0px 16px;
+            }
+        }
+
+        .saprator-block {
+            border-left: 1px solid #b7b7b7;
+            margin: 0px 8px 0px 10px;
+            height: 26px;
+        }
+
+        .size-input-block {
+            flex-grow: 1;
+
+            input {
+                border: unset;
+                outline: unset;
+                width: 100%;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 21px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+
+    // .text-input {
+    //     width: -webkit-fill-available;
+    //     height: 48px;
+    //     background: #ffffff;
+    //     border: 1px solid #414141;
+    //     border-radius: 5px;
+    //     padding-left: 20px;
+    //     color: black !important;
+    // }
+
+    // ::placeholder {
+    //     color: #a0a0a0;
+    //     /* Firefox */
+    // }
+
+    // :-ms-input-placeholder {
+    //     color: #b7b7b7;
+    // }
+
+    // ::-ms-input-placeholder {
+    //     color: #b7b7b7;
+    // }
+}
